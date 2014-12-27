@@ -11,6 +11,7 @@ unix {
 
 INCLUDEPATH += include src
 
+include(../GLEW/GLEW.pri)
 include(../common.pri)
 
 OTHER_FILES += \

@@ -19,3 +19,5 @@ unix {
         LIBS += -L$$OUT_PWD/../VBE/
         PRE_TARGETDEPS += $$OUT_PWD/../VBE/libVBE.a
 }
+
+include(../GLEW/GLEW.pri)
